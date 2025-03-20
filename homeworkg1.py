@@ -1,0 +1,11 @@
+ad = input("Adınızı girin: ")
+yas = int(input("Yaşınızı girin: "))
+dogum_yili = int(input("Doğum yılınızı girin: "))
+print(f"Merhaba {ad}! {yas} yaşındasın ve {dogum_yili} yılında doğmuşsun.")
+
+sayi1 = float(input("Birinci sayıyı girin: "))
+sayi2 = float(input("İkinci sayıyı girin: "))
+print(f"Toplam: {sayi1 + sayi2}")
+print(f"Fark: {sayi1 - sayi2}")
+print(f"Çarpım: {sayi1 * sayi2}")
+print(f"Bölüm: {sayi1 / sayi2}")
